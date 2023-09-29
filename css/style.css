@@ -108,8 +108,10 @@
     margin-bottom: 16px; 
 }
 #image1, #image2, #image3, #image4{
-    border-radius: 10px;
+    border-radius: 10px; 
+    position: relative;
 }
+#image3:hover{filter: brightness(0.5);}
 figure{
     color: black;
     font-family: Rubick;
@@ -117,7 +119,6 @@ figure{
 }
 figcaption {
   padding: 16px 0 0 0;
-  background-color: none;
   color: black;
 }
 
