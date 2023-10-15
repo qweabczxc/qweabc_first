@@ -13,50 +13,48 @@
                 <img src="img/sign.png" alt="logo" class="header_logo-img">
                 <p class="header_logo-p">Видеосервис</p>
             </div>
-                <form>
+            <form>
+                <label>
                     <input type="text" placeholder="Поиск..." class="header_search">
-                    <input type="button" value="Найти" class="header_search_btn">
-                </form>
-                <form>
-                    <input type="button" value="Войти" class="header_login">
-                </form>
-        </header>
-
-            <form >
-                <input type="button" value="Фильмы" id = "films" class="links">
-                <input type="button" value="Телеканалы" id = "channels" class="links">
+                </label>
+                <input type="button" value="Найти" class="header_search_btn">
             </form>
-
+            <form>
+                <input type="button" value="Войти" class="header_login">
+            </form>
+        </header>
+        <form action="index2.html" class="main-btn">
+            
+                <input type="button" value="Фильмы" id="films" class="links">
+                <button  id="channels" class="links">Телеканалы</button>
+            
+        </form>
         <main>
             <p id="m1">🔥 Новинки</p>
             <div class="images">
                 <figure>
-                    <img src="img/image1.png" id="image1">
+                    <img src="img/image1.png" id="image1" alt="">
                     <figcaption>Мульт в кино. Выпуск №103. Некогда грустить!</figcaption>
                 </figure>
-
                 <figure>
-                    <img src="img/image2.png" id="image2">
+                    <img src="img/image2.png" id="image2" alt="">
                     <figcaption>Новый Бэтмен</figcaption>
-                </figure>  
-
-                <figure>
-                    <img src="img/image3.png" id="image3">
-                    <figcaption>Однажды... в Голливуде</figcaption>
+                    <div class="text-hover">Фильм повествует о череде событий, произошедших в Голливуде в 1969 году, на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии.</div>
                 </figure>
-                
-                <figure>    
-                    <img src="img/image4.png" id="image4">
+                <figure>
+                    <img src="img/image3.png" id="image3" alt="">
+                    <figcaption>Однажды... в Голливуде</figcaption>
+                    <div class="text-hover">Фильм повествует о череде событий, произошедших в Голливуде в 1969 году, на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии.</div>
+                </figure>
+                <figure>
+                    <img src="img/image4.png" id="image4" alt="">
                     <figcaption>Стриптизёрши</figcaption>
-                </figure>    
-
+                    <div class="text-hover">Фильм повествует о череде событий, произошедших в Голливуде в 1969 году, на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии.</div>
+                </figure>
             </div>
-        
         </main>
-
-            <p id = "asd">Жанры</p>
-
-        <genre>
+        <p id="asd">Жанры</p>
+        <div class="genre">
             <div id="genre1">
                 <p class="smiley">😁</p>
                 <p class="genre_text">Комедии</p>
@@ -73,15 +71,19 @@
                 <p class="smiley">👻</p>
                 <p class="genre_text">Ужасы</p>
             </div>
-        </genre>
         </div>
+        
+    </div>
+    <div class="container" id="footer">
         <footer>
-            <img src="img/htc-cs-logo.png" id="last_img">
-            <div>
-            <p class="last_text">426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)</p>
-            <p class="last_text">+7 (3412) 93-88-61, 43-29-29</p>
-            <p class="last_text">htc-cs.ru</p></div>
+            <div class="container" id="foot_text">
+                <img src="img/htc-cs-logo.png" id="last_img" class="last_text" alt="">
+                <div id="foot_text2">
+                <p class="last_text">426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)</p>
+                <p class="last_text" id="foot_last_text">+7 (3412) 93-88-61, 43-29-29</p>
+                <a class="last_text" href="#">htc-cs.ru</a></div>
+            </div>
         </footer>
-    
+    </div>
 </body>
 </html>
