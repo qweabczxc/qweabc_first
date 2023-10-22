@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qwe</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap">
+</head>
+<body>
+    <style>
+        body{
+            font-family: 'Rubik', sans-serif;
+            background-image: url("img/modal.png");
+            background-size: 80%;
+            background-position-x: center;
+            background-repeat: no-repeat;
+            background-color: rgba(0, 0, 0, 0.33);
+        }
+        #div{
+            position:absolute;
+            left: 42%;
+            top: 23%; 
+            border-radius: 8px;
+
+            width: 304px;
+            height: 394px;
+            background-color: white;
+        }
+        #f{
+            width: 70px; height: 33px;
+            margin-top: 36px;
+            position: relative;
+            left: 40%;
+
+            color: var(--Gray-1, #333);
+            text-align: right;
+            font-family: 'Rubik', sans-serif;
+            font-size: 28px;
+            font-weight:600;
+            
+        }
+        #flex{
+            display: flex;
+        }
+        input{
+            margin-left: 38px;
+            border: none;
+            border-bottom: 2px solid red;
+            width: 232px;
+            height: 25px;
+
+            font-size: 16px;
+            font-weight: 400;
+
+        }
+        #check{
+            width: 16px; height: 16px;
+        }
+        #prelast{
+            width: 85px; height: 19px;
+            margin-left: 8px; margin-top: 2px;
+        }
+        .bottom{
+            margin-bottom: 24px;
+        }
+        button{
+            width: 113px; height: 38px;
+            margin:80px 95px 36px 96px;
+
+            border: none;
+            border-radius: 8px;
+            background-color: red;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+
+        }
+    </style>
+    
+    <div id="div"> 
+        <p id="f">Вход</p>
+        <input type="text" placeholder="Логин" class="bottom">
+        <input type="text" placeholder="Пароль" class="bottom">
+        <div id="flex">
+            <input type="checkbox" id="check" class="bottom">
+            <p id="prelast"class="bottom">Запомнить</p>
+        </div>
+        <form action="index.html">
+        <button>Войти</button></form>
+    </div>
+</body>
+</html>
